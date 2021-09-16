@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="digitaltwin/style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="/css/app.825df6c2.css" rel="preload" as="style">
+		<link href="/css/chunk-vendors.55204a1e.css" rel="preload" as="style"><link href="/js/app.cf3a806c.js" rel="preload" as="script">
+		<link href="/js/chunk-vendors.b79ec9f8.js" rel="preload" as="script">
+		<link href="/css/chunk-vendors.55204a1e.css" rel="stylesheet"><link href="/css/app.825df6c2.css" rel="stylesheet">
+		<title>Landing Page</title>
+</head>
+
+<body>
+	<header>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: black;">
+		  <a class="navbar-brand" href="#">PAL</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+			  <a class="nav-item nav-link" href="index.html">Home</a>
+			  <a class="nav-item nav-link active" href="tutorial.html">Tutorial <span class="sr-only">(current)</span></a>
+			  <a class="nav-item nav-link" href="about.html">About</a>
+			  <a class="nav-item nav-link" href="team.html">The Team</a>
+			</div>
+		  </div>
+		<div class="uom-logo">
+			<img src="digitaltwin/uom_logo.png" alt="uom-logo" style="width: 50% height: 50%">
+		</div>
+		</nav>
+
+	</header>
+	
+	<main>
+		
+		<section class="presentation">
+			<div class="introduction">
+			<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-auto">
+					<img src="digitaltwin/splash_tutorial.png" alt="Splashscreen">
+					<h1>How to use:</h1>
+					<p>After logging into the account, the user is met with the application’s splash screen.
+					To connect to the application, <br> the user can either press the start button to get re-directed to the motor drive unit's data log or press one of 
+					the three buttons <br> in the navigation bar to access a specific component of the application.</p><br>
+				</div>
+					<ul>
+						<li><h3>1. Data Log</h3></li>
+						<img src="digitaltwin/datalog_tutorial.png" alt="Data log">
+						<p>The data log provides all data points obtained from the motor to be presented in a table or view the motor’s parameters in the highlights section under the navigation bar.
+						For access to a specific data point through the table’s features. For a specific data point, the user is able to search through the data by filtering based on a specific parameter. 
+						There is also the option to  sort through the data rows based on their ID or time created for any points of interest.</p>
+
+						<li><h3>2. Monitor</h3></li>
+						<img src="digitaltwin/monitor_tutorial.png" alt="Monitor">
+						<p>
+						The monitor section provides a visual representation of data obtained which consists of plots including:
+						<ul>
+							<br>
+							<li>Voltage against Current</li>
+							<li>Rotary speed against time</li>
+							<li>Frequency of each operating condition for each session</li>
+						</ul>
+						<br>
+						And the motor rating parameters for the monitored motor.
+						<br>
+						</p>
+
+						<li><h3>3. Control</h3></li>
+						<img src="digitaltwin/control_tutorial.png" alt="Control panel">
+						<p>
+							The control section of the application consists of three applications that perform similar functions for each of the three MATLAB models:
+							<ul>
+								<br>
+								<li>Torque</li>
+								<li>Rotary speed</li>
+								<li>Operating condition</li>
+								<br>
+							</ul>
+							Each providing the ability for the user to either post the voltage as a value or a file containing a set of data for the models’ input.
+							<br> For each application, there is a data log and a plot that showcase how the model reacts to the data sent.
+						</p>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</section>
+		
+		<img class="big-circle" src="digitaltwin/big-eclipse.svg" alt="">
+	</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

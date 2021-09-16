@@ -1,0 +1,64 @@
+{
+  "name": "digitaltwin_dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "browser-sync start --server 'src' --files 'src' --single"
+  },
+  "dependencies": {
+    "@websanova/vue-knob": "^0.4.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.4.0",
+    "bootstrap-vue": "^2.21.2",
+    "browsersync": "0.0.1-security",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.9.1",
+    "echarts": "^5.1.0",
+    "element-ui": "^2.15.1",
+    "express": "^4.17.1",
+    "fusioncharts": "^3.16.0",
+    "html-loader": "^2.1.2",
+    "router": "^1.3.5",
+    "socket.io": "^4.0.1",
+    "socket.io-client": "^4.0.1",
+    "vue": "^2.6.12",
+    "vue-axios": "^3.2.4",
+    "vue-chartjs": "^3.5.1",
+    "vue-chartkick": "0.6.1",
+    "vue-echarts": "^6.0.0-rc.4",
+    "vue-fusioncharts": "^3.1.0",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-eslint": "~4.5.11",
+    "@vue/cli-service": "~4.5.11",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
